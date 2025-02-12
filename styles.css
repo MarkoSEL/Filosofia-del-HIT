@@ -76,6 +76,11 @@ button:hover {
     background-color: #cc0000; /* Cambio de color al pasar el mouse */
 }
 
+footer {
+    text-align: center;
+}
+
+
 
 /* Ocultar sub-botones por defecto */
 .sub-buttons-container {
@@ -149,3 +154,85 @@ button:hover {
 
 
 
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+header {
+    background-color: #ff3333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #cc0000;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+p {
+    color: #cccccc;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+}
+
+/* Heavy Duty Mode */
+body.heavy-duty-mode {
+    background-color: black;
+    color: yellow;
+}
+
+.heavy-duty-mode header {
+    background-color: #222;
+    border-bottom: 4px solid yellow;
+}
+
+.heavy-duty-mode section {
+    background-color: #333;
+    border: 2px solid yellow;
+    padding: 25px;
+    text-align: center;
+}
+
+.heavy-duty-mode h1, .heavy-duty-mode h2 {
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.heavy-duty-mode p {
+    color: white;
+    font-size: 18px;
+}
+
+.heavy-duty-mode button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.heavy-duty-mode button:hover {
+    background-color: orange;
+}
+
+.heavy-duty-mode img {
+    max-width: 25%;
+    border-radius: 10px;
+    border: 3px solid yellow;
+    box-shadow: 0px 0px 10px rgba(255, 255, 0, 0.8);
+}

@@ -59,7 +59,10 @@ window.onload = function() {
     tabs.forEach(tab => {
         tab.style.display = "none";
     });
+    document.getElementById("heavy-duty-content").style.display = "none";
 };
+
+
 
 
 
