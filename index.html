@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenamiento HIT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="default-theme">
+    <header>
+        <h1>La filosofía del Entrenamiento de Alta Intensidad (HIT)</h1>
+        <p>En esta página exploraremos los principios fundamentales del HIT, su origen y evolución, las bases científicas que lo respaldan y cómo aplicarlo correctamente en tu rutina de entrenamiento. 
+        Nos enfocaremos en la metodología original desarrollada por Arthur Jones, basada en la eficiencia del entrenamiento y la optimización del esfuerzo.</p>
+    </header>
+    
+    <main>
+        <section id="introduccion">
+            <h1>La historia del HIT: Donde todo comenzó</h1>
+
+            <p>El Entrenamiento de Alta Intensidad (HIT) nació en la década de 1970 gracias a Arthur Jones, un innovador en la industria del fitness y fundador de Nautilus, Inc. 
+            Jones creía que el entrenamiento debía enfocarse en la calidad y no en la cantidad, promoviendo sesiones cortas pero extremadamente intensas para lograr el máximo crecimiento muscular.</p>
+            
+            <img src="images/arturjhones.webp" alt="Arthur Jones, creador del HIT" class="intro-img">
+
+            <h2>Arthur Jones: El padre del HIT</h2>
+
+            <p>Arthur Jones revolucionó el entrenamiento con su enfoque basado en la ciencia y la biomecánica. Sus principios incluían:</p>
+            
+            <ul>
+                <li><strong>Pocas series, máxima intensidad:</strong> En lugar de múltiples series, recomendaba una sola serie llevada al fallo muscular.</li>
+                <li><strong>Ejercicios controlados:</strong> La técnica y el tiempo bajo tensión eran clave para la efectividad del entrenamiento.</li>
+                <li><strong>Recuperación adecuada:</strong> Entrenar con demasiada frecuencia podía ser perjudicial, por lo que recomendaba suficiente descanso.</li>
+            </ul>
+            
+            <h2>Base cientifica del HIT</h2>
+                <p>Estudios han demostrado que entrenar con alta intensidad genera un estímulo muscular mayor en menos tiempo, activando fibras musculares tipo II y mejorando la resistencia anaeróbica.</p>
+        
+                <img src="images/estudio hit.jpg" alt="Estudio científico sobre el HIT" class="intro-img">
+
+            <h2>Atletas que usaron el HIT</h2>
+
+                <p>El HIT no solo se quedó en la teoría. Grandes culturistas aplicaron este método para alcanzar niveles de desarrollo muscular impresionantes:</p>
+
+                <ul>
+                    <li><strong>Mike Mentzer:</strong> Llevó el HIT al siguiente nivel con su variante <em>Heavy Duty</em>.</li>
+                    <li><strong>Dorian Yates:</strong> Ganador de 6 títulos Mr. Olympia, perfeccionó el HIT con entrenamientos breves e intensos.</li>
+                    <li><strong>Casey Viator:</strong> Uno de los primeros atletas en demostrar los beneficios del HIT con su transformación física.</li>
+                </ul>
+
+                <img src="images/mikementzer.jpg" alt="Mike Mentzer entrenando con HIT" class="intro-img">
+
+            <h2>Beneficios clave del HIT</h2>
+
+                <p>El HIT se ha mantenido vigente porque ofrece múltiples ventajas:</p>
+
+            <ul>
+                <li>✅ <strong>Menos tiempo, más resultados:</strong> Sesiones cortas pero efectivas.</li>
+                <li>✅ <strong>Maximiza la hipertrofia:</strong> Entrenar al fallo estimula el crecimiento muscular de manera óptima.</li>
+                <li>✅ <strong>Evita el sobreentrenamiento:</strong> Un adecuado descanso favorece la recuperación y el progreso.</li>
+                <li>✅ <strong>Apto para todos los niveles:</strong> Se puede adaptar a principiantes y avanzados.</li>
+            </ul>
+
+            <img src="images/beneficioshit.jpg" alt="Beneficios del entrenamiento HIT" class="intro-img">
+
+        </section>
+        
+
+
+        <section id="profundizar-temas">
+
+            <h2>Profundiza en el HIT</h2>
+
+            <p>Explora más sobre los fundamentos del HIT, su aplicación, la ciencia detrás de él, mitos y ejemplos prácticos.</p>
+        
+            <div class="topics-container">
+
+                <div class="topic-card">
+                    <img src="images/principioshit.webp" alt="Principios del HIT">
+                    <button onclick="openTab('principios-hit')">Principios del HIT</button>
+                </div>
+
+                <div class="topic-card">
+                    <img src="images/aplicarhit.jpg" alt="Cómo aplicar el HIT">
+                    <button onclick="openTab('aplicar-hit')">Cómo aplicar el HIT</button>
+                </div>
+
+                <div class="topic-card">
+                    <img src="images/cienciahit.jpg" alt="Ciencia detrás del HIT">
+                    <button onclick="openTab('ciencia-hit')">Ciencia detrás del HIT</button>
+                </div>
+
+                <div class="topic-card">
+                    <img src="images/mitosyrealidadhit.jpg" alt="Mitos y realidades del HIT">
+                    <button onclick="openTab('mitos-hit')">Mitos y realidades del HIT</button>
+                </div>
+
+                <div class="topic-card">
+                    <img src="images/ejemploshit.jpg" alt="Ejemplos de entrenamiento HIT">
+                    <button onclick="openTab('ejemplos-hit')">Ejemplos de entrenamiento HIT</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        
+
+        <section id="principios-hit" class="tab-content">    
+                <h2>Principios del HIT</h2>
+                <p>El Entrenamiento de Alta Intensidad (HIT) se basa en maximizar el estímulo muscular en el menor tiempo posible. A continuación, exploramos sus principios clave:</p>
+            
+                <button onclick="toggleSubButtons('sub-principios-hit')">Mostrar/Ocultar Opciones</button>
+
+            <div id="sub-principios-hit" class="sub-buttons-container">
+                <button onclick="toggleSubInfo('fallo-muscular')">Fallo muscular</button>
+                <button onclick="toggleSubInfo('pocas-series')">Pocas series, máxima intensidad</button>
+                <button onclick="toggleSubInfo('recuperacion')">Recuperación adecuada</button>
+                <button onclick="toggleSubInfo('tecnica')">Técnica y ejecución</button>
+                <button onclick="toggleSubInfo('progresion')">Progresión y sobrecarga</button>
+            </div>
+        
+            <div class="sub-content" id="fallo-muscular">
+                <h3>Fallo muscular</h3>
+                <p>El HIT enfatiza realizar cada serie hasta el fallo muscular, lo que significa que no puedes completar otra repetición con buena técnica.</p>
+                <p>Según <strong>Mike Mentzer</strong>: "No hay razón para hacer más repeticiones si ya has estimulado completamente el músculo".</p>
+                <img src="images/fallo-muscular.jpg" alt="Ejemplo de fallo muscular en entrenamiento HIT" class="sub-img">
+            </div>
+        
+            <div class="sub-content" id="pocas-series">
+                <h3>Pocas series, máxima intensidad</h3>
+                <p>El HIT se basa en realizar menos series pero con una intensidad máxima. Esto evita el desgaste innecesario y promueve la recuperación.</p>
+                <p><strong>Comparación:</strong> Mientras que los entrenamientos tradicionales pueden incluir 15-20 series por músculo, el HIT recomienda solo 1-2 series al fallo.</p>
+                <img src="images/pocas-series.jpg" alt="Comparación entre HIT y volumen alto" class="sub-img">
+            </div>
+        
+            <div class="sub-content" id="recuperacion">
+                <h3>Recuperación adecuada</h3>
+                <p>Uno de los pilares del HIT es la recuperación óptima. Entrenar con demasiada frecuencia puede impedir el crecimiento muscular.</p>
+                <p>Según estudios, los músculos pueden tardar de <strong>48 a 72 horas</strong> en recuperarse completamente tras un entrenamiento intenso.</p>
+                <img src="images/recuperacion.jpg" alt="Importancia del descanso en HIT" class="sub-img">
+            </div>
+        
+            <div class="sub-content" id="tecnica">
+                <h3>Técnica y ejecución</h3>
+                <p>El HIT enfatiza la ejecución controlada y el tiempo bajo tensión para maximizar la activación muscular.</p>
+                <p>Una repetición en HIT suele durar <strong>4-6 segundos</strong> en la fase excéntrica para evitar el uso de impulso.</p>
+                <img src="images/tecnica-gym.jpg" alt="Ejemplo de buena técnica en HIT" class="sub-img">
+            </div>
+        
+            <div class="sub-content" id="progresion">
+                <h3>Progresión y sobrecarga</h3>
+                <p>Para seguir avanzando en el HIT, es fundamental aplicar sobrecarga progresiva: aumentar el peso, repeticiones o mejorar la ejecución.</p>
+                <p>Ejemplo: Si en la semana 1 haces press de banca con 80 kg x 8 reps, la semana siguiente intenta 9 reps o 82 kg.</p>
+                <img src="images/progresion.jpg" alt="Ejemplo de sobrecarga progresiva en HIT" class="sub-img">
+            </div>
+        </section>
+        
+
+        <section id="aplicar-hit" class="tab-content">
+            <h2>Cómo aplicar el HIT</h2>
+            <p>Para aplicar el HIT correctamente, es importante estructurar bien el entrenamiento y evitar errores comunes.</p>
+            
+            <button onclick="toggleSubButtons('sub-aplicar-hit')">Mostrar/Ocultar Opciones</button>
+        
+            <div id="sub-aplicar-hit" class="sub-buttons-container">
+                <button onclick="toggleSubInfo('frecuencia')">Frecuencia de entrenamiento</button>
+                <button onclick="toggleSubInfo('ejercicios')">Selección de ejercicios</button>
+                <button onclick="toggleSubInfo('errores')">Errores comunes</button>
+            </div>
+        
+            <div class="sub-content" id="frecuencia">
+                <h3>Frecuencia de entrenamiento</h3>
+                <p>El HIT recomienda entrenar entre **2 y 3 veces por semana**, asegurando una recuperación completa.</p>
+                <img src="images/frecuencia.jpg" alt="Frecuencia recomendada para HIT" class="sub-img">
+            </div>
+        
+            <div class="sub-content" id="ejercicios">
+                <h3>Selección de ejercicios</h3>
+                <p>El HIT se enfoca en <strong>ejercicios compuestos</strong> que trabajen varios grupos musculares al mismo tiempo.</p>
+                <img src="images/ejercicios-ideales.jpg" alt="Ejercicios ideales para HIT" class="sub-img">
+            </div>
+        
+            <div class="sub-content" id="errores">
+                <h3>Errores comunes</h3>
+                <p>Algunos errores incluyen no alcanzar el fallo muscular, entrenar con demasiada frecuencia y descuidar la recuperación.</p>
+                <img src="images/errores.jpg" alt="Errores comunes en HIT" class="sub-img">
+            </div>
+        </section>
+        
+        <section id="ciencia-hit" class="tab-content">
+            <h2>Ciencia detrás del HIT</h2>
+            <p>El HIT está respaldado por múltiples estudios que demuestran su efectividad en el desarrollo muscular.</p>
+            
+            <button onclick="toggleSubButtons('sub-ciencia-hit')">Mostrar/Ocultar Opciones</button>
+        
+            <div id="sub-ciencia-hit" class="sub-buttons-container">
+                <button onclick="toggleSubInfo('estudios')">Estudios científicos</button>
+                <button onclick="toggleSubInfo('beneficios')">Beneficios fisiológicos</button>
+            </div>
+        
+            <div class="sub-content" id="estudios">
+                <h3>Estudios científicos</h3>
+                <p>Investigaciones han demostrado que entrenar con **alta intensidad y baja frecuencia** maximiza la hipertrofia muscular.</p>
+                <img src="images/estudio-hit.jpg" alt="Estudios sobre el HIT" class="sub-img">
+            </div>
+        
+            <div class="sub-content" id="beneficios">
+                <h3>Beneficios fisiológicos</h3>
+                <p>El HIT mejora la eficiencia del sistema nervioso, activa más fibras musculares y optimiza la producción de testosterona.</p>
+                <img src="images/beneficios-hit.jpg" alt="Beneficios fisiológicos del HIT" class="sub-img">
+            </div>
+        </section>
+        
+        <section id="mitos-hit" class="tab-content">
+            <h2>Mitos y realidades del HIT</h2>
+            <p>A lo largo del tiempo, han surgido muchos mitos sobre el HIT. Aquí aclaramos los más comunes.</p>
+            
+            <button onclick="toggleSubButtons('sub-mitos-hit')">Mostrar/Ocultar Opciones</button>
+        
+            <div id="sub-mitos-hit" class="sub-buttons-container">
+                <button onclick="toggleSubInfo('mito1')">"El HIT no sirve para hipertrofia"</button>
+                <button onclick="toggleSubInfo('mito2')">"Es peligroso para principiantes"</button>
+            </div>
+        
+            <div class="sub-content" id="mito1">
+                <h3>"El HIT no sirve para hipertrofia"</h3>
+                <p>El HIT ha demostrado ser <strong>altamente efectivo</strong> para el desarrollo muscular, siempre que se entrene al fallo.</p>
+                <img src="images/mitos-hit.jpg" alt="Mito sobre la hipertrofia en HIT" class="sub-img">
+            </div>
+        
+            <div class="sub-content" id="mito2">
+                <h3>"Es peligroso para principiantes"</h3>
+                <p>El HIT puede ser adaptado a principiantes mediante la reducción de la intensidad y el aumento del tiempo de recuperación.</p>
+                <img src="images/mitos-principiante.jpg" alt="Mito sobre el HIT en principiantes" class="sub-img">
+            </div>
+        </section>
+        
+
+        <section id="ejemplos-hit" class="tab-content">
+            <h2>Ejemplos de entrenamiento HIT</h2>
+            <p>Aquí encontrarás rutinas HIT para diferentes niveles de experiencia.</p>
+            
+            <button onclick="toggleSubButtons('sub-ejemplos-hit')">Mostrar/Ocultar Opciones</button>
+        
+            <div id="sub-ejemplos-hit" class="sub-buttons-container">
+                <button onclick="toggleSubInfo('rutina1')">Rutina básica</button>
+                <button onclick="toggleSubInfo('rutina2')">Rutina avanzada</button>
+            </div>
+        
+            <div class="sub-content" id="rutina1">
+                <h3>Rutina básica</h3>
+                <p>Rutina HIT para principiantes: 3 días a la semana con ejercicios básicos al fallo.</p>
+                <img src="images/rutina-basica.jpg" alt="Rutina básica HIT" class="sub-img">
+            </div>
+        
+            <div class="sub-content" id="rutina2">
+                <h3>Rutina avanzada</h3>
+                <p>Rutina avanzada con técnicas de intensidad como repeticiones forzadas y negativas.</p>
+                <img src="images/rutina-avanzada.jpg" alt="Rutina avanzada HIT" class="sub-img">
+            </div>
+        </section>
+        
+        
+        <section id="heavy-duty">
+            <h2>Del HIT a Heavy Duty</h2>
+            <p>Tras la popularización del HIT por Arthur Jones, Mike Mentzer llevó esta filosofía a un nuevo nivel con su método <strong>Heavy Duty</strong>. 
+            Esta variante enfatizaba aún más la intensidad, la baja frecuencia de entrenamiento y el uso de técnicas avanzadas para alcanzar el fallo muscular total.</p>
+            
+            <p>El Heavy Duty tuvo un gran impacto en el culturismo, influenciando a atletas como Dorian Yates, quien perfeccionó aún más este estilo de entrenamiento.</p>
+            <button onclick="location.href='#Heavy-Duty-siguiente-nivel'">Heavy Duty: siguiente nivel</button>
+        </section>
+
+
+
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Entrenamiento HIT</p>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
+

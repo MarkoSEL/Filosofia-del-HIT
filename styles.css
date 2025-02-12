@@ -1,0 +1,151 @@
+body {
+    background-color: #121212; /* Fondo oscuro para mayor contraste */
+    color: #ffffff; /* Texto blanco para mejor lectura */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff3333; /* Rojo intenso para destacar el encabezado */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #cc0000;
+}
+
+h1, h2 {
+    color: #ffffff; /* Rojo intenso para títulos */
+}
+
+p {
+    color: #cccccc; /* Texto gris claro para facilitar la lectura */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #1a1a1a; /* Fondo oscuro para secciones */
+}
+
+.topics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.topic-card {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.topic-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(255, 51, 51, 0.5);
+}
+
+.topic-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.topic-card button {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.topic-card button:hover {
+    background-color: #cc0000;
+}
+
+
+button:hover {
+    background-color: #cc0000; /* Cambio de color al pasar el mouse */
+}
+
+
+/* Ocultar sub-botones por defecto */
+.sub-buttons-container {
+    display: none;
+    margin-top: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Mostrar sub-botones cuando la sección está activa */
+.sub-buttons-container.active {
+    display: flex;
+}
+
+/* Estilo de los sub-botones */
+.sub-buttons-container button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sub-buttons-container button:hover {
+    background-color: #ff3333;
+}
+
+/* Ocultar contenido inicialmente */
+.sub-content {
+    display: none;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Mostrar contenido cuando está activo */
+.sub-content.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Estilo para imágenes dentro de subtemas */
+.sub-img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 51, 51, 0.5);
+}
+
+
+
+/*Estilo de las imagenes*/
+.intro-img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 51, 51, 0.5);
+}
+
+
+
